@@ -198,6 +198,7 @@ $if %reg_mode%==GLOBAL  VE.lo(R,I,K)$FL_IK(R,I,K)                       =0;
 $if %reg_mode%==JPN     VE.lo(R,I,K)$FL_NOTINT_K(K)                     =0;
 $if %reg_mode%==JPN     VE.lo(R,'CCS','T_OIL')                          =-inf;
     VE.lo(R,'H_H','CCUM0')                                              =-inf;
+    VE.lo(R,'OIL','OLNM1')                                              =-inf;
 
 * optimization
     Enduse.holdfixed    =1;
